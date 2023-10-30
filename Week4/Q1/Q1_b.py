@@ -2,7 +2,6 @@ import random
 
 
 hidden = random.randint(1,20)
-print(hidden)
 
 guess = int(input('Enter guess number between 1 to 20 : '))
 while (guess != hidden):
